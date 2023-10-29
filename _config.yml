@@ -14,7 +14,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 테스트용 블로그 # the main title
+title: 파덕의 블로그 # the main title
 
 tagline: 테스트 중 입니다 # it will display as the sub-title
 
