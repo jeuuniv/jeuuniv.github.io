@@ -183,7 +183,7 @@ Configuration file: /mnt/c/github_blog/jeuuniv.github.io/_config.yml
 
 그러나, 그냥 `git push`를 시도하면 `tools/init`에서 git checkout을 수행한 상태에서 커밋하여 브랜치가 분기된 상태이기 때문에 충돌이 발생하여 진행할 수 없습니다.
 
-그래서 저는 이 문제를 해결하기 위해 'git push' 대신 'git push --force'를 사용하여 해결했습니다.
+그래서 저는 이 문제를 해결하기 위해 `git push` 대신 `git push --force`를 사용하여 해결했습니다.
 
 또한, 커밋할 때 git 사용자 이름과 이메일을 설정하지 않으면, 커밋한 사람이 root로만 표시되므로, 다음 명령어를 사용하여 커밋할 때 사용할 이름과 이메일을 설정했습니다.
 
