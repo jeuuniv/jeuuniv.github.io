@@ -206,7 +206,7 @@ git config --global user.email you@example.com
 최종적으로 다음 명령어를 입력하면 됩니다.
 
 
-> git push를 할때 올바른 본인 id와 token값을 입력해야 진행이 됩니다.
+> git push를 할때 본인 id와 token값을 물어보니 올바른 값을 입력하시면 됩니다.
 {: .prompt-warning }
 
 ```bash
