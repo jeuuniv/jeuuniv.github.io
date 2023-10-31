@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 파덕의 블로그 # the main title
 
-tagline: 테스트 중 입니다 # it will display as the sub-title
+tagline: 까먹기 쉬운걸 적어요. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.

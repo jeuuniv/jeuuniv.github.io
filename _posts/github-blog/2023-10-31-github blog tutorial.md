@@ -1,16 +1,15 @@
 ---
-title: 윈도우에서 Jekyll Chirpy 테마로 깃허브 블로그 만들기 (윈도우 환경 + WSL 사용)
-date: 2023-10-29 00:00:00 +0900
-categories: [깃허브 블로그, 만들기]
-tags: [git, github, jekyll, chirpy, blog, tutorial, wsl, wsl2, windows, ]     # TAG names should always be lowercase
+title: 윈도우에서 Jekyll Chirpy 테마로 깃허브 블로그 만들기 (윈도우 환경 + WSL 사용) (2023.10.31 기준)
+date: 2023-10-31 15:35:00 +0900
+categories: [깃허브 블로그]
+tags: [git, github, jekyll, chirpy, jekyll chirpy, bundler, node.js, blog, tutorial, wsl, wsl2, windows,]     # TAG names should always be lowercase
 ---
 
 ## 소개
 
-이 글은 제가 윈도우 환경에서 어떻게 Jekyll Chirpy 테마로 깃허브 블로그를 만들었는지 그 과정을 까먹지 않게 기록하려는 목적으로 작성되었습니다.
+이 글은 제가 윈도우 환경에서 어떻게 Jekyll Chirpy 테마로 깃허브 블로그를 만들었는지 그 과정을 잊어버리지 않게 기록하려는 목적으로 작성되었습니다.
 
-제가 아직 초보라서 과정 중에 설명이 부족하거나 틀린 부분이 있을 수도 있으니 해당 부분에 대해서 지적해주시면 감사히 받아들이겠습니다!
-
+제가 아직 초보라서 과정 중에 설명이 부족하거나 틀린 부분이 있을 수도 있으니 해당 부분에 대해서 지적해주시면 적극적으로 수용하도록 하겠습니다!
 
 제가 생각하기에 Jekyll Chripy는 리눅스나 맥 환경에 친화적이지만 윈도우에선 그렇지 않은 것 같습니다.
 
@@ -18,7 +17,6 @@ tags: [git, github, jekyll, chirpy, blog, tutorial, wsl, wsl2, windows, ]     # 
 
 ## 기본 환경설정
 ### WSL 설치
-
 먼저 WSL에 대해 간단하게 설명하면 윈도우 컴퓨터에서 윈도우와 리눅스의 기능을 사용할 수 있게 해주는 기능을 제공합니다. 
 
 굳이 가상머신이나 듀얼부팅을 통해 작업하지 않아도 되서 매우 간편합니다.
@@ -26,7 +24,7 @@ tags: [git, github, jekyll, chirpy, blog, tutorial, wsl, wsl2, windows, ]     # 
 설치하는 방법은 매우 간단합니다. cmd나 powershell을 열어 다음 명령어를 입력하면 됩니다.
 
 > 아래 명령으로 WSL을 설치하려면 Windows 10 버전 2004 이상(빌드 19041 이상) 또는 Windows 11 이어야 합니다.
-{: .prompt-danger }
+{: .prompt-warning }
 
 ```
 wsl --install
@@ -98,7 +96,7 @@ wsl 셸을 통해서 나중에 git push를 하기 위해서는 토큰이 필요�
 여기서 토큰 만료 기간(Expiration)을 자유롭게 설정하고 Select scopes에서 repo와 workflow를 체크해줍니다.
 
 > workflow를 체크하면 자동으로 repo도 체크됩니다.
-{: .prompt-danger }
+{: .prompt-tip }
 
 그리고 맨 아래 Generate token을 누르게 되면 토큰이 발급됩니다. 
 
@@ -106,7 +104,7 @@ wsl 셸을 통해서 나중에 git push를 하기 위해서는 토큰이 필요�
 
 ## 깃허브 포크 및 초기화
 ### 포크 만들기
-[***링크***](https://github.com/cotes2020/jekyll-theme-chirpy/fork)를 클릭해서 Chripy 포크를 진행하면되는데 여기서 레포지토리 이름을 (깃허브id).github.io 로 하고 Create fork를 클릭하면 됩니다.
+[***링크***](https://github.com/cotes2020/jekyll-theme-chirpy/fork)를 클릭해서 Chripy 포크를 할때 여기서 레포지토리 이름을 `(깃허브id).github.io` 로 하고 Create fork를 클릭하면 됩니다.
 
 ### git clone
 저같은 경우는 로컬 디스크 (C:)에 github_blog란 폴더를 만들었습니다. 
@@ -121,7 +119,7 @@ cd (깃허브id).github.io/
 ```
 
 ### tools/init 실행
-원래라면 bash tools/init 만 하면 실행되지만, WSL2 환경에서는 앞에 추가적인 명령어들를 입력해야 나중에 오류가 안생기고 정상적으로 진행할 수 있습니다.
+원래라면 `bash tools/init` 만 하면 실행되지만, WSL2 환경에서는 앞에 추가적인 명령어들를 입력해야 나중에 오류가 안생기고 정상적으로 진행할 수 있습니다.
 
 다음의 명령어를 입력합니다.
 
@@ -132,7 +130,7 @@ git add tools/init
 bash tools/init
 ```
 
-추가로, 공식 문서를 참고해보면 tools/init은 다음 과정을 수행한다고 합니다.
+여담으로, 공식 문서를 참고해보면 `tools/init`은 다음 과정을 수행한다고 합니다.
 
 1. 사이트의 안정성을 위해 가장 최신 release로 브랜치를 전환(git checkout)합니다.
 2. 필수적이지 않은 샘플 파일을 제거하고 GitHub 관련 파일을 관리합니다.
@@ -148,18 +146,18 @@ bundle
 ```
 
 ### _config.yml 설정
-(깃허브id).github.io 폴더에서 _config.yml 파일을 찾아 열어줍니다. (Notepad++나 Visual Studio Code같은 프로그램으로 열어주시면 됩니다.)
+`(깃허브id).github.io` 폴더에서 _config.yml 파일을 찾아 열어줍니다. (Notepad++나 Visual Studio Code같은 프로그램으로 열어주시면 됩니다.)
 
-먼저, url 부분을 url: "https://(깃허브id).github.io"로 바꿔줍니다.
+먼저, url 부분을 `url: "https://(깃허브id).github.io"`로 바꿔줍니다.
 > 주의할 점은 주소부분이 "https://(깃허브id).github.io/" 처럼 '/'로 끝나면 안됩니다.
-{: .prompt-danger }
+{: .prompt-warning }
 
 그 다음에 lang, timezone, title, tagline을 저는 다음과 같이 바꿔줬습니다.
 
-1. lang: ko-KR
-2. timezone: Asia/Seoul
-3. title: 파덕의 블로그
-4. tagline: 테스트 중 입니다.
+1. `lang: ko-KR`
+2. `timezone: Asia/Seoul`
+3. `title: 파덕의 블로그`
+4. `tagline: 테스트 중 입니다.`
 
 그 이외의 설정들은 나중에 따로 글을 올리게 되면 추가로 링크를 달도록 하고 이정도만 설정하고 넘어가겠습니다.
 
@@ -193,20 +191,23 @@ Configuration file: /mnt/c/github_blog/jeuuniv.github.io/_config.yml
 상단에 있는 Setting 클릭 후 Code and automation 탭의 Pages를 클릭합니다.
 그 다음 Build and deployment에서 Source를 Deploy from branch에서 GitHub Action로 바꾸면 끝입니다. (configure 눌러 설정할 필요 없습니다.)
 
-### git 커밋, push
+### git 커밋 후 push
 지금까지 변경 내용을 이제 커밋하고 git push하면 GitHub Actions가 자동으로 블로그를 빌드하고 배포하게 됩니다.
 
-하지만 이 상태에서 커밋하고 git push하려고 하면 아까 tools/init 때 git checkout을 한 상태에서 커밋해 브랜치가 나눠졌기 때문에 충돌이 일어나 push가 안되고 오류가 발생합니다.
+하지만 이 상태에서 커밋하고 `git push`하려고 하면 아까 tools/init 때 git checkout을 한 상태에서 커밋해 브랜치가 나눠져서 충돌이 일어나 push가 안되고 오류가 발생합니다.
 
-저는 이를 해결하기 위해 그냥 git push 대신 git push --force로 해결했습니다.
+저는 이를 해결하기 위해 그냥 `git push` 대신 `git push --force`로 해결했습니다.
 
-그리고 커밋할 때 git username과 email을 설정하지 않으면 커밋한 사람이 root로만 뜨기 때문에 다음 명령어로 커밋할 때 사용할 이름과 이메일을 입력했습니다.
+그리고 커밋할 때 git username과 email을 설정하지 않으면 커밋한 사람이 root로만 뜨기 때문에 다음 명령어를 입력해 커밋할 때 사용할 이름과 이메일을 입력했습니다.
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email you@example.com
 ```
-
 최종적으로 다음 명령어를 입력하면 됩니다.
+
+
+> git push를 할때 올바른 본인 id와 token값을 입력해야 진행이 됩니다.
+{: .prompt-warning }
 
 ```bash
 git add .
@@ -214,7 +215,11 @@ git commit -m "first commit"
 git push --force
 ```
 
-그 다음 깃허브 홈페이지에서 본인 레포지토리에서 Actions를 클릭해보면 빌드와 배포를 진행하는 내용을 볼 수 있습니다. 
-배포가 정상적으로 되면 https://(깃허브id).github.io/ 에 접속하면 홈페이지가 보이게 됩니다!
+그 다음 깃허브 홈페이지 본인 레포지토리에서 Actions를 클릭해보면 빌드와 배포를 진행하는 내용을 볼 수 있습니다. 
 
+배포가 정상적으로 되면 `https://(깃허브id).github.io/` 에 접속하면 홈페이지가 보이게 됩니다!
 
+## 글을 마치면서
+다음 글에서는 블로그에 글을 게시하는 방법에 대한 내용을 가지고 찾아봽도록 하겠습니다.
+
+긴글 읽어주시셔서 감사합니다.
