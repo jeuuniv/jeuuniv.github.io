@@ -132,7 +132,7 @@ bash tools/init
 
 여담으로, 공식 문서를 참고해보면 `tools/init`은 다음 과정을 수행한다고 합니다.
 
-1. 사이트의 안정성을 위해 가장 최신 release로 브랜치를 전환(git checkout)합니다.
+1. 사이트의 안정성을 위해 가장 최신 release로 브랜치로 전환(git checkout)합니다.
 2. 필수적이지 않은 샘플 파일을 제거하고 GitHub 관련 파일을 관리합니다.
 3. JavaScript 파일을 빌드하고 assets/js/dist/로 내보낸 다음 Git에서 추적할 수 있도록 합니다.
 4. 자동으로 새 커밋을 생성하여 위의 변경 사항을 저장합니다.
