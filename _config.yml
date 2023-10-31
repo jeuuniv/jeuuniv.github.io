@@ -94,7 +94,7 @@ comments:
     category: General
     category_id: DIC_kwDOKmQFLc4Cah_w
     mapping: # optional, default to 'pathname'
-    input_position: # optional, default to 'bottom'
+    input_position: top # optional, default to 'bottom'
     lang: ko # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
