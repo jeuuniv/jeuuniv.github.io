@@ -5,8 +5,6 @@ categories: [깃허브 블로그]
 tags: [git, github, github blog, jekyll, chirpy, jekyll chirpy, blog, tutorial, wsl, windows,]     # TAG names should always be lowercase
 ---
 
-## 소개
-
 이 글은 제가 윈도우 환경에서 Windows Subsystem for Linux (WSL)을 활용하여 어떻게 Jekyll Chirpy 테마를 사용하여 깃허브 블로그를 만들었는지의 과정을 기록하기 위해 작성되었습니다. 
 
 제가 아직 초보자이기 때문에 설명이 부족하거나 잘못된 부분이 있을 수 있으니 의견과 지적을 주시면 적극적으로 수용하도록 하겠습니다!

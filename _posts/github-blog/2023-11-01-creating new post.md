@@ -5,8 +5,6 @@ categories: [깃허브 블로그]
 tags: [git, github, github blog, jekyll, chirpy, jekyll chirpy, blog, tutorial, wsl, windows,]     # TAG names should always be lowercase
 ---
 
-## 개요
-
 > 이전에 올렸던 깃허브 블로그 만드는 법을 따라하셨다면, 아마 지금 블로그는 완전 텅텅 빈 상태일 것입니다. \
 이번 글에서는 만든 블로그에 글을 게시하는 법에 대해 간단하게 알려드리겠습니다.
 
