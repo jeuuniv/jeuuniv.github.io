@@ -1,6 +1,6 @@
 ---
-title: 깃허브 블로그에서 글 게시하는 법 (Jekyll Chirpy 테마 기준)
-date: 2023-10-31 15:35:00 +0900
+title: 깃허브 블로그에서 첫글 게시하는 법 (Jekyll Chirpy 테마 기준)
+date: 2023-11-01 15:35:00 +0900
 categories: [깃허브 블로그]
 tags: [git, github, jekyll, chirpy, jekyll chirpy, bundler, node.js, blog, tutorial, wsl, wsl2, windows,]     # TAG names should always be lowercase
 ---
@@ -15,7 +15,7 @@ tags: [git, github, jekyll, chirpy, jekyll chirpy, bundler, node.js, blog, tutor
 
 ## 테스트용 글 작성해보기
 ### 게시글 이름과 위치
-로컬에서 본인 레포지토리에 들어가서 _posts 폴더를 찾아 들어가줍니다.
+로컬에서 본인 레포지토리에 들어가서 `_posts` 폴더를 찾아 들어가줍니다.
 
 > 만약 `_post` 폴더가 없다면 하나 생성해주시면 됩니다.
 {: .prompt-tip}
@@ -26,7 +26,7 @@ tags: [git, github, jekyll, chirpy, jekyll chirpy, bundler, node.js, blog, tutor
 
 여기서 확장자인 `.md`를 보시면 아시겠지만 Jekyll은 마크다운을 지원한다는 것을 알 수 있습니다.
 
-### 마크다운 언어란?
+### 마크다운이란?
 마크다운은 일반 텍스트 문서에 서식 요소를 추가하는 데 사용할 수 있는 경량 마크업 언어입니다. (마크업 언어는 간단히 HTML 파일을 생각하시면 쉽습니다.)
 
 기존에 글을 쓰기위해서는 `<html> </html>, <body> </body> ...` 와 같은 html 태그를 이용해서 작성했지만, 마크다운에서는 훨씬 더 간결한 문법으로 작성이 가능합니다.
@@ -68,3 +68,45 @@ categories: categories: [일반, 테스트]
 tags: [깃허브, 테스트, github, test] # TAG names should always be lowercase
 ---
 ```
+
+### 글 내용 작성
+그리고 나서 마지막 `---` 밑에부터 글의 내용을 적으면 됩니다. 저는 간단하게 `안녕하세요, 테스트 글 입니다.`를 적어보겠습니다.
+
+최종적으로 `2023-11-01-writing new post.md` 파일 안 내용은 이렇게 되어있습니다.
+
+```md
+---
+title: 첫 게시글 테스트!
+date: 2023.11.01 10:24:00 +0900
+categories: categories: [일반, 테스트]
+tags: [깃허브, 테스트, github, test] # TAG names should always be lowercase
+---
+
+안녕하세요, 테스트 글 입니다.
+```
+
+이렇게 한 뒤 깃허브에 배포하기 전에 먼저 로컬서버를 열어 글이 정상적으로 나오는지 테스트를 해봅니다. 다음 명령어를 치면 로컬서버가 실행됩니다.
+
+```bash
+bundle exec jekyll s
+```
+
+<http://127.0.0.1:4000>에 접속해서 글이 잘 나온다면 성공입니다!
+
+## git commit 후 push
+로컬서버에서 문제가 없었다면 이제 커밋을 하게되면 자동적으로 GitHub Actions가 빌드, 배포를 진행하게 됩니다. 
+
+본인 레포지토리에서 다음의 명령어를 입력해 진행합니다.
+
+```bash
+git add .
+git commit -m "add post"
+git push
+```
+
+명령어를 입력한 뒤 문제가 없다면 깃허브 블로그에 글이 보이게 됩니다!
+
+## 마치며
+지금은 간단하게만 글을 작성하는 법에 대해 알려드려서 조금 글에 부족함이 있을 것 같습니다.
+
+추후에 더 자세한 내용으로 찾아뵙도록 하겠습니다. 긴 글 읽어주셔서 감사합니다!
