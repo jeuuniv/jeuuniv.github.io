@@ -2,7 +2,7 @@
 title: Jekyll Chirpy 테마로 깃허브 블로그 만들기 (윈도우 환경 + WSL 사용) (2023.10.31 기준)
 date: 2023-10-31 15:35:00 +0900
 categories: [깃허브 블로그]
-tags: [git, github, github blog, jekyll, chirpy, jekyll chirpy, blog, tutorial, wsl, windows,]     # TAG names should always be lowercase
+tags: [git, github, github blog, jekyll, chirpy, jekyll chirpy, blog, tutorial, wsl, windows]     # TAG names should always be lowercase
 ---
 
 이 글은 제가 윈도우 환경에서 Windows Subsystem for Linux (WSL)을 활용하여 어떻게 Jekyll Chirpy 테마를 사용하여 깃허브 블로그를 만들었는지의 과정을 기록하기 위해 작성되었습니다. 
