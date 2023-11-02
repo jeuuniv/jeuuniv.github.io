@@ -11,7 +11,7 @@ tags: [git, github, github blog, jekyll, chirpy, jekyll chirpy, blog, tutorial, 
 ## 프로필 사진 추가하기
 ### 프로필 사진 이미지 준비
 일단 프로필 사진으로 쓰고 싶은 이미지 하나를 준비합니다.
-![avatar.jpg](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/aef0576c-d7c2-434d-871c-565b1468ca7b)
+![avatar.jpg](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/aef0576c-d7c2-434d-871c-565b1468ca7b){: .w-50}
 _저는 이 이미지를 준비했습니다_
 
 저는 프로필 사진 파일 이름을 `avatar.jpg`라 했고, 이제 이 파일을 레포지토리 `assets/img` 폴더에 넣어줬습니다.
@@ -63,9 +63,6 @@ PNG, JPG, SVG 파일 확장자를 가진 512x512(혹은 그 이상)의 정사각
 
 그 다음 나머지 파일들을 전부 복사해서 레포지토리에 `assets/img/favicons`에 덮어쓰기 해줍니다.
 
-> 만약 favicons 폴더가 없다면 하나 생성해서 복사한 파일을 붙여넣기 합니다.
-{: .prompt.warning}
-
 ### 로컬서버로 테스트하기
 프로필 사진때와 똑같이 변경이 잘 됐는지 배포 전에 다음 명령어로 로컬서버에서 확인해 봅니다.
 
@@ -74,6 +71,6 @@ bundle exec jekyll s
 ```
 
 ## 마치며
-여기까지 문제없이 적용이 잘 됐다면 해당 변경사항을 git commit 후 git push 하게 되면 자동적으로 사이트에 적용되게 됩니다!
+여기까지 문제없이 적용이 잘 됐다면 해당 변경사항을 `git commit` 후 `git push` 하게 되면 자동적으로 사이트에 적용됩니다!
 
-다음글에서는 깃허브 블로그에 댓글창을 추가하는 방법에 대해 적도록 하겠습니다. 긴글 읽어주셔서 감사합니다.
+다음글에서는 깃허브 블로그에 댓글창을 추가하는 방법에 대해 적도록 하겠습니다. 긴 글 읽어주셔서 감사합니다.
