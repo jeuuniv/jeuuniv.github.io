@@ -1,5 +1,5 @@
 ---
-title: 블로그 프로필 사진과 파비콘 바꾸는 법 (Jekyll Chirpy 기준)
+title: 깃허브 블로그 프로필 사진과 파비콘 바꾸기 (Jekyll Chirpy 기준)
 date: 2023-11-02 10:26:00 +0900
 categories: [깃허브 블로그]
 tags: [git, github, github blog, jekyll, chirpy, jekyll chirpy, blog, tutorial, wsl, windows, profile, favicon]     # TAG names should always be lowercase
