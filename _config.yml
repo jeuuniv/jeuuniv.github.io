@@ -78,6 +78,12 @@ avatar: assets/img/avatar.jpg
 # boolean type, the global switch for TOC in posts.
 toc: true
 
+plugins:
+  - jekyll-feed
+  
+feed:
+  path: /rss.xml
+
 comments:
   active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
