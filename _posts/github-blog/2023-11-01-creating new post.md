@@ -1,8 +1,8 @@
 ---
-title: 깃허브 블로그에서 첫글 게시하기 (Jekyll Chirpy 테마 기준)
+title: 깃허브 블로그에서 첫글 게시하기 (Jekyll Chirpy 기준)
 date: 2023-11-01 13:22:00 +0900
 categories: [깃허브 블로그]
-tags: [git, github, github blog, jekyll, chirpy, jekyll chirpy, blog, tutorial, wsl, windows]     # TAG names should always be lowercase
+tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃허브, 블로그, 깃허브 블로그, 튜토리얼,]     # TAG names should always be lowercase
 ---
 
 > 이전에 올렸던 깃허브 블로그 만드는 법을 따라하셨다면, 아마 지금 블로그는 완전 텅텅 빈 상태일 것입니다. \
