@@ -67,7 +67,7 @@ giscus 앱을 설치한 레포지토리에 들어가서 Setting - General에서 
 </script>
 ```
 
-위 코드에서 다음은 `_config.yml` 설정에 사용되니 알고계시면 될 것 같습니다.
+위 코드에서 다음은 항목은 `_config.yml` 설정에 사용되니 알고계시면 될 것 같습니다.
 
 * data-repo="`jeuuniv/jeuuniv.github.io`"
 * data-repo-id="`R_kgDOKmQFLQ`"
