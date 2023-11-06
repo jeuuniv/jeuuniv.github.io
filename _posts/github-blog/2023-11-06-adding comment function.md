@@ -5,7 +5,7 @@ categories: [깃허브 블로그]
 tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃허브, 블로그, 깃허브 블로그, 튜토리얼, comment]     # TAG names should always be lowercase
 ---
 
-깃허브 블로그에는 기본적으로 댓글 기능이 없습니다. 그렇기 때문에 이번 글에서는 giscus를 이용해서 댓글 기능을 추가하는 법에 대해서 알려드리겠습니다.
+> 깃허브 블로그에는 기본적으로 댓글 기능이 없습니다. 그렇기 때문에 이번 글에서는 giscus를 이용해서 댓글 기능을 추가하는 법에 대해서 알려드리겠습니다.
 
 ## giscus란?
 ### 소개
@@ -18,6 +18,8 @@ giscus는 깃허브의 토론(GitHub Discussions) 기능으로 작동하는 댓�
 * 광고 X, 무료
 * 커스텀 테마, 여러 언어, 여러 설정이 가능함
 * 자동으로 깃허브에서 새로운 댓글과 수정사항을 반영함
+
+
 
 ## giscus 설치
 ### 레포지토리 지정
@@ -36,7 +38,6 @@ giscus는 깃허브의 토론(GitHub Discussions) 기능으로 작동하는 댓�
 giscus 앱을 설치한 레포지토리에 들어가서 Setting - General에서 Features에 있는 Discussions를 체크해줍니다.
 
 ### giscus 설정
-
 먼저 <https://giscus.app/ko>로 들어가서 `설정` 문단에 `저장소:` 에 giscus 앱을 설치한 레포지토리를 입력해줍니다.
 
 입력한 뒤 옆에 초록색 체크표시와 아래에 `통과했습니다! 이 저장소는 모든 조건을 만족합니다.` 메시지가 나오는 것을 통해 정상적으로 진행됐다는 걸 알 수 있습니다.
@@ -47,7 +48,9 @@ giscus 앱을 설치한 레포지토리에 들어가서 Setting - General에서 
 
 저는 여기서 General 카테고리로 설정하겠습니다.
 
-그러면 아래 `giscus 사용` 문단에 다음과 같은 코드가 보일겁니다.
+
+
+그러고 나면 아래 `giscus 사용` 문단에 다음과 같은 코드가 보일겁니다.
 
 ```html
 <script src="https://giscus.app/client.js"
@@ -112,17 +115,19 @@ comments:
 `category:`는 `data-category`값을, 
 `category_id:`는 `data-category-id`값을 넣어주면 됩니다.
 
+
 그리고 giscus는 기본값으로 댓글 입력 상자가 작성된 댓글 아래에 위치합니다.
 
 저는 작성된 댓글 위에 댓글 상자를 배치하고 싶어서 `input_positions:`을 `input_position: top`으로 바꿔줬습니다.
 
 
-`lang:`은 기본적으로 `_config.yml` 맨 위 홈페이지 언어로 자동 설정되기 때문에 따로 설정 할 필요가 없습니다.
+일반적으로, giscus의 `lang:`은 설정한 홈페이지 언어로 자동 설정되기 때문에 따로 설정 할 필요가 없습니다.ㄷ
 
 > 하지만, 본인 홈페이지의 lang값이 `ko-KR`과 같은 형식일 때 giscus가 작동하지 않으므로, 반드시 giscus 언어 설정에서 `ko`와 같은 형식을 강제로 지정해줘야 합니다.
 {: .prompt-danger}
 
 저는 `ko-KR`이라 설정되어 있으므로 `giscus:`내에 있는 `lang:`을 `lang: ko`로 바꿔줬습니다.
+
 
 최종적으로 다음과 같이 설정된 모습을 볼 수 있습니다.
 
@@ -156,6 +161,8 @@ bundle exec jekyll s
 ```
 
 로컬에서 정상적으로 작동되는 것을 확인한 뒤 `git push`를 하면 본인의 깃허브 홈페이지에 댓글 기능이 생긴 것을 볼 수 있습니다!
+
+
 
 ## 마치며
 제가 아직 글 작성하는 게 서툴러서 이상하게 서술된 부분도 있을 것 같습니다.
