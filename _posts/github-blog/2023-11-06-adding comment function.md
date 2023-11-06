@@ -116,9 +116,10 @@ comments:
 
 저는 작성된 댓글 위에 댓글 상자를 배치하고 싶어서 `input_positions:`을 `input_position: top`으로 바꿔줬습니다.
 
-그리고 `lang:` 설정은 따로 하지 않으면 `_config.yml`에서 맨 위에 본인이 설정한 lang으로 자동 설정 됩니다. 
 
-> 본인 홈페이지의 lang값이 `ko-KR` 이런 형식일 때 giscus가 작동하지 않으므로, 반드시 `ko`와 같은 형식을 사용해야 합니다.
+`lang:`은 기본적으로 `_config.yml` 맨 위 홈페이지 언어로 자동 설정되기 때문에 따로 설정 할 필요가 없습니다.
+
+> 하지만, 본인 홈페이지의 lang값이 `ko-KR`과 같은 형식일 때 giscus가 작동하지 않으므로, 반드시 giscus 언어 설정에서 `ko`와 같은 형식을 강제로 지정해줘야 합니다.
 {: .prompt-danger}
 
 저는 `ko-KR`이라 설정되어 있으므로 `giscus:`내에 있는 `lang:`을 `lang: ko`로 바꿔줬습니다.
