@@ -118,7 +118,8 @@ comments:
 
 그리고 `lang:` 설정은 따로 하지 않으면 `_config.yml`에서 맨 위에 본인이 설정한 lang으로 자동 설정 됩니다. 
 
-하지만 lang이 `ko-KR` 이런 형식일 때 giscus가 작동하지 않으므로, 반드시 `ko`와 같은 형식을 사용해야 합니다.
+> 하지만 lang이 `ko-KR` 이런 형식일 때 giscus가 작동하지 않으므로, 반드시 `ko`와 같은 형식을 사용해야 합니다.
+{: .prompt-danger}
 
 저는 `ko-KR`이라 설정되어 있으므로 `giscus:`내에 있는 `lang:`을 `lang: ko`로 바꿔줬습니다.
 
