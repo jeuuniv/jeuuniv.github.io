@@ -1,5 +1,5 @@
 ---
-title: 깃허브 블로그에서 첫글 게시하기 (Jekyll Chirpy 기준)
+title: 깃허브 블로그에서 첫글 게시 (Jekyll Chirpy 기준)
 date: 2023-11-01 13:22:00 +0900
 categories: [깃허브 블로그]
 tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃허브, 블로그, 깃허브 블로그, 튜토리얼,]     # TAG names should always be lowercase
@@ -29,7 +29,7 @@ tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃�
 기존에 글을 쓰기위해서는 `<html> </html>, <body> </body> ...` 와 같은 html 태그를 이용해서 작성했지만, 마크다운에서는 훨씬 더 간결한 문법으로 작성이 가능합니다.
 
 ### 머리말 블록 설정
-게시글의 내용을 작성하기 전에 항상 파일의 앞 부분에는 다음과 같은 형식이 있어야 합니다. 이를 [***Front Matter***](https://jekyllrb.com/docs/front-matter/)라 합니다.
+게시글의 내용을 작성하기 전에 항상 파일의 앞 부분에는 다음과 같은 형식이 있어야 합니다. 이를 [***Front Matter***](https://jekyllrb.com/docs/front-matter/){:target="_blank"}라 합니다.
 
 ```md
 ---
@@ -88,7 +88,7 @@ tags: [깃허브, 테스트, github, test] # TAG names should always be lowercas
 bundle exec jekyll s
 ```
 
-<http://127.0.0.1:4000>에 접속해서 글이 잘 나온다면 성공입니다!
+<http://127.0.0.1:4000>{:target="_blank"}에 접속해서 글이 잘 나온다면 성공입니다!
 
 ## git commit 후 push
 로컬서버에서 문제가 없었다면 이제 커밋을 하게되면 자동적으로 GitHub Actions가 빌드, 배포를 진행하게 됩니다. 

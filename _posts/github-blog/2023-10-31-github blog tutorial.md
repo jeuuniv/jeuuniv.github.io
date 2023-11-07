@@ -1,5 +1,5 @@
 ---
-title: Jekyll Chirpy 테마로 깃허브 블로그 만들기 (윈도우 환경 + WSL 사용) (2023.10.31 기준)
+title: Jekyll Chirpy 테마로 깃허브 블로그 제작 (윈도우 환경 + WSL 사용) (2023.10.31 기준)
 date: 2023-10-31 15:35:00 +0900
 categories: [깃허브 블로그]
 tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃허브, 블로그, 깃허브 블로그, 튜토리얼, windows, wsl]     # TAG names should always be lowercase
@@ -80,7 +80,7 @@ nvm install node
 ```
 
 ### 깃허브 personal access token 발급
-나중에 WSL 셸을 통해 Git push를 수행하려면 GitHub 토큰이 필요합니다. [***링크***](https://github.com/settings/tokens/new)를 클릭하여 GitHub 토큰 생성 페이지를 엽니다.
+나중에 WSL 셸을 통해 Git push를 수행하려면 GitHub 토큰이 필요합니다. [***링크***](https://github.com/settings/tokens/new){:target="_blank"}를 클릭하여 GitHub 토큰 생성 페이지를 엽니다.
 
 토큰을 생성할 때, 만료 기간(Expiration)을 자유롭게 설정하고 Select scopes에서 'repo'와 'workflow'를 선택해주세요.
 
@@ -91,7 +91,7 @@ nvm install node
 
 ## 깃허브 포크 및 초기화
 ### 포크 만들기
-[***링크***](https://github.com/cotes2020/jekyll-theme-chirpy/fork)를 클릭하여 Chirpy 리포지토리를 포크할 때, 레포지토리 이름을 `(깃허브id).github.io`로 설정하고 'Create fork'를 클릭하세요.
+[***링크***](https://github.com/cotes2020/jekyll-theme-chirpy/fork){:target="_blank"}를 클릭하여 Chirpy 리포지토리를 포크할 때, 레포지토리 이름을 `(깃허브id).github.io`로 설정하고 'Create fork'를 클릭하세요.
 
 
 ### git clone
@@ -171,7 +171,7 @@ Configuration file: /mnt/c/github_blog/jeuuniv.github.io/_config.yml
   Server running... press ctrl-c to stop.
 ```
 
-<http://127.0.0.1:4000/> 로 접속하게 되면 홈페이지가 뜨게 됩니다!
+<http://127.0.0.1:4000/>{:target="_blank"} 로 접속하게 되면 홈페이지가 뜨게 됩니다!
 
 ## 깃허브 블로그 배포
 ### Github Actions 설정

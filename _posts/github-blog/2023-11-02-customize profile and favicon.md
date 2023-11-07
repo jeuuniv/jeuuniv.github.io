@@ -1,5 +1,5 @@
 ---
-title: 깃허브 블로그 프로필 사진과 파비콘 바꾸기 (Jekyll Chirpy 기준)
+title: 깃허브 블로그 프로필 사진과 파비콘 커스터마이징 (Jekyll Chirpy 기준)
 date: 2023-11-02 10:26:00 +0900
 categories: [깃허브 블로그]
 tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃허브, 블로그, 깃허브 블로그, 튜토리얼, profile, favicon]     # TAG names should always be lowercase
@@ -48,7 +48,7 @@ PNG, JPG, SVG 파일 확장자를 가진 512x512(혹은 그 이상)의 정사각
 저는 위에 있던 프로필 사진을 여기서도 쓸 생각이어서 따로 준비는 안했습니다.
 
 ### 파비콘 생성
-파비콘을 생성해주는 사이트인 <https://realfavicongenerator.net/> 에 접속합니다.
+파비콘을 생성해주는 사이트인 <https://realfavicongenerator.net/>{:target="_blank"} 에 접속합니다.
 `Select your Favicon image`를 클릭해서 아까 준비한 이미지를 업로드합니다.
 
 그리고 나서 변환이 끝나면 맨 아래에 있는 `Generate your Favicons and HTML code`를 클릭합니다.

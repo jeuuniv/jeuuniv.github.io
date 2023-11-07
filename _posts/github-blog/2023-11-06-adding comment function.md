@@ -1,5 +1,5 @@
 ---
-title: 깃허브 블로그에 댓글 기능 추가하기 - giscus (Jekyll Chirpy 기준)
+title: 깃허브 블로그에 댓글 기능 추가 - giscus (Jekyll Chirpy 기준)
 date: 2023-11-06 14:44:00 +0900
 categories: [깃허브 블로그]
 tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃허브, 블로그, 깃허브 블로그, 튜토리얼, comment]     # TAG names should always be lowercase
@@ -28,7 +28,7 @@ giscus는 깃허브의 토론(GitHub Discussions) 기능으로 작동하는 댓�
 저는 제 깃허브 블로그 레포지토리(`jeuuniv/jeuuniv.github.io`)를 사용하겠습니다.
 
 ### gicus 앱 설치
-그 다음 gicus 앱을 활성화하기 위해 [***giscus 앱 설치***](https://github.com/apps/giscus)로 들어가서 오른 쪽 상단 초록색 버튼 `Install`을 클릭합니다.
+그 다음 gicus 앱을 활성화하기 위해 [***giscus 앱 설치***](https://github.com/apps/giscus){:target="_blank"}로 들어가서 오른 쪽 상단 초록색 버튼 `Install`을 클릭합니다.
 
 그 다음 `for these repositories:`에서 `Only select repositories`를 선택한 뒤, 위에서 지정한 레포지토리로 바꿔줍니다. 
 
@@ -38,7 +38,7 @@ giscus는 깃허브의 토론(GitHub Discussions) 기능으로 작동하는 댓�
 giscus 앱을 설치한 레포지토리에 들어가서 Setting - General에서 Features에 있는 Discussions를 체크해줍니다.
 
 ### giscus 설정
-먼저 <https://giscus.app/ko>로 들어가서 `설정` 문단에 `저장소:` 에 giscus 앱을 설치한 레포지토리를 입력해줍니다.
+먼저 <https://giscus.app/ko>{:target="_blank"}로 들어가서 `설정` 문단에 `저장소:` 에 giscus 앱을 설치한 레포지토리를 입력해줍니다.
 
 입력한 뒤 옆에 초록색 체크표시와 아래에 `통과했습니다! 이 저장소는 모든 조건을 만족합니다.` 메시지가 나오는 것을 통해 정상적으로 진행됐다는 걸 알 수 있습니다.
 
