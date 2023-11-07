@@ -82,8 +82,8 @@ nvm install node
 ### 깃허브 personal access token 발급
 나중에 WSL 셸을 통해 Git push를 수행하려면 GitHub 토큰이 필요합니다. [***링크***](https://github.com/settings/tokens/new){:target="_blank"}를 클릭하여 GitHub 토큰 생성 페이지를 엽니다.
 
-![light mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/8b4495e3-9c6c-4f5e-a315-6528ef4d1b0b){: .light .w-75 .shadow .rounded-10 }
-![dark mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/e51bff64-dc7f-4dd9-89a8-cda0523762df){: .dark .w-75 .shadow .rounded-10 }
+![light mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/8b4495e3-9c6c-4f5e-a315-6528ef4d1b0b){: .light .w-90 .shadow .rounded-10 }
+![dark mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/e51bff64-dc7f-4dd9-89a8-cda0523762df){: .dark .w-90 .shadow .rounded-10 }
 
 토큰을 생성할 때, 만료 기간(Expiration)을 자유롭게 설정하고 Select scopes에서 'repo'와 'workflow'를 선택해주세요.
 
@@ -94,8 +94,8 @@ nvm install node
 
 ## 깃허브 포크 및 초기화
 ### 포크 만들기
-![light mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/4600f90e-f9e0-4dd1-b3b3-86524884195d){: .light .w-75 .shadow .rounded-10 }
-![dark mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/c1add358-050d-4450-91c0-1ff203854c47){: .dark .w-75 .shadow .rounded-10 }
+![light mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/4600f90e-f9e0-4dd1-b3b3-86524884195d){: .light .w-90 .shadow .rounded-10 }
+![dark mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/c1add358-050d-4450-91c0-1ff203854c47){: .dark .w-90 .shadow .rounded-10 }
 
 [***링크***](https://github.com/cotes2020/jekyll-theme-chirpy/fork){:target="_blank"}를 클릭하여 Chirpy 리포지토리를 포크할 때, 레포지토리 이름을 `(깃허브id).github.io`로 설정하고 'Create fork'를 클릭하세요.
 
@@ -124,12 +124,7 @@ git add tools/init
 bash tools/init
 ```
 
-여담으로, 공식 문서를 참고해보면 `tools/init`은 다음 과정을 수행한다고 합니다.
-
-1. 사이트의 안정성을 위해 가장 최신 release로 브랜치로 전환(git checkout)합니다.
-2. 필수적이지 않은 샘플 파일을 제거하고 GitHub 관련 파일을 관리합니다.
-3. JavaScript 파일을 빌드하고 assets/js/dist/로 내보낸 다음 Git에서 추적할 수 있도록 합니다.
-4. 자동으로 새 커밋을 생성하여 위의 변경 사항을 저장합니다.
+정상적으로 진행됐으면 `[INFO] Initialization successful!` 메시지가 출력됩니다.
 
 ## 로컬서버 실행
 ### 의존성 패키지 설치
@@ -176,11 +171,17 @@ Configuration file: /mnt/c/github_blog/jeuuniv.github.io/_config.yml
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
 ```
+![light mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/2724be03-3a0c-4bd8-8920-12f3384e79e0){: .light .w-90 .shadow .rounded-10 }
+![dark mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/bf9be0aa-e1ca-48da-9c8a-215f83e8dad6){: .dark .w-90 .shadow .rounded-10 }
 
 <http://127.0.0.1:4000/>{:target="_blank"} 로 접속하게 되면 홈페이지가 뜨게 됩니다!
 
 ## 깃허브 블로그 배포
 ### Github Actions 설정
+
+
+![light mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/94b68029-e77e-4c7f-87be-8bc5099da603){: .light .w-90 .shadow .rounded-10 }
+![dark mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/0ec5e5e5-fd33-49d9-91b1-7ce7ca75520d){: .dark .w-90 .shadow .rounded-10 }
 먼저 깃허브 홈페이지에 들어가 본인이 포크한 레포지토리로 들어갑니다.
 상단에 있는 Setting 클릭 후 Code and automation 탭의 Pages를 클릭합니다.
 그 다음 Build and deployment에서 Source를 Deploy from branch에서 `GitHub Actions`로 바꾸면 끝입니다. (configure 눌러 설정할 필요 없습니다.)
@@ -210,7 +211,10 @@ git commit -m "first commit"
 git push --force
 ```
 
-그 다음 깃허브 홈페이지 본인 레포지토리에서 Actions를 클릭해보면 빌드와 배포를 진행하는 내용을 볼 수 있습니다. 
+![light mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/c47396f3-ece9-4654-9a06-17c5b520c350){: .light .w-90 .shadow .rounded-10 }
+![dark mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/01f1e64f-3a9d-4212-a70e-e01c34387afa){: .dark .w-90 .shadow .rounded-10 }
+
+그 다음 깃허브 홈페이지 본인 레포지토리에서 Actions를 클릭해보면 빌드와 배포를 진행하는 것을 볼 수 있습니다. 
 
 배포가 정상적으로 된 후 `https://(깃허브id).github.io/` 에 접속하면 홈페이지가 보이게 됩니다!
 
