@@ -94,6 +94,9 @@ nvm install node
 
 ## 깃허브 포크 및 초기화
 ### 포크 만들기
+![light mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/4600f90e-f9e0-4dd1-b3b3-86524884195d){: .light .w-75 .shadow .rounded-10 }
+![dark mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/c1add358-050d-4450-91c0-1ff203854c47){: .dark .w-75 .shadow .rounded-10 }
+
 [***링크***](https://github.com/cotes2020/jekyll-theme-chirpy/fork){:target="_blank"}를 클릭하여 Chirpy 리포지토리를 포크할 때, 레포지토리 이름을 `(깃허브id).github.io`로 설정하고 'Create fork'를 클릭하세요.
 
 
