@@ -1,5 +1,5 @@
 ---
-title: Jekyll Chirpy 테마로 깃허브 블로그 제작 (윈도우 환경 + WSL 사용) (2023.10.31 기준)
+title: 깃허브 블로그 제작 - Jekyll Chirpy 테마 (윈도우 + WSL) (2023.10 기준)
 date: 2023-10-31 15:35:00 +0900
 categories: [깃허브 블로그]
 tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃허브, 블로그, 깃허브 블로그, 튜토리얼, windows, wsl]     # TAG names should always be lowercase
@@ -81,6 +81,9 @@ nvm install node
 
 ### 깃허브 personal access token 발급
 나중에 WSL 셸을 통해 Git push를 수행하려면 GitHub 토큰이 필요합니다. [***링크***](https://github.com/settings/tokens/new){:target="_blank"}를 클릭하여 GitHub 토큰 생성 페이지를 엽니다.
+
+![light mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/8b4495e3-9c6c-4f5e-a315-6528ef4d1b0b){: .light .w-75 .shadow .rounded-10 }
+![dark mode only](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/e51bff64-dc7f-4dd9-89a8-cda0523762df){: .dark .w-75 .shadow .rounded-10 }
 
 토큰을 생성할 때, 만료 기간(Expiration)을 자유롭게 설정하고 Select scopes에서 'repo'와 'workflow'를 선택해주세요.
 

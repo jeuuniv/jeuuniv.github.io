@@ -1,5 +1,5 @@
 ---
-title: 깃허브 블로그에서 첫글 게시 (Jekyll Chirpy 기준)
+title: 깃허브 블로그 - 첫글 게시 (Jekyll Chirpy 기준)
 date: 2023-11-01 13:22:00 +0900
 categories: [깃허브 블로그]
 tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃허브, 블로그, 깃허브 블로그, 튜토리얼,]     # TAG names should always be lowercase

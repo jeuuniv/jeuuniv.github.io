@@ -1,5 +1,5 @@
 ---
-title: 깃허브 블로그에 댓글 기능 추가 - giscus (Jekyll Chirpy 기준)
+title: 깃허브 블로그 - 댓글 기능 추가 - giscus (Jekyll Chirpy 기준)
 date: 2023-11-06 14:44:00 +0900
 categories: [깃허브 블로그]
 tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃허브, 블로그, 깃허브 블로그, 튜토리얼, comment]     # TAG names should always be lowercase
