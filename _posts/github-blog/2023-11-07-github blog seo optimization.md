@@ -6,7 +6,7 @@ tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, seo, 
 ---
 
 > 이번 글에서는 본인이 만든 블로그가 구글이나 네이버에서 검색해서 유입될 수 있도록 노출시키는 방법에 대해서 알려드리겠습니다. 
-이를 검색 엔진 최적화라 하는데 Jekyll Chirpy에서는 간단하게 적용 할 수 있습니다.
+이를 검색 엔진 최적화라 하는데 Jekyll Chirpy에서는 `sitemap.xml`, `robots.txt`가 자동으로 생성되므로 간단하게 적용 할 수 있습니다.
 
 ## 구글
 ### Google Search Console 접속
