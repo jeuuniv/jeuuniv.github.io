@@ -4,6 +4,8 @@ date: 2023-10-31 15:35:00 +0900
 categories: [깃허브 블로그]
 tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃허브, 블로그, 깃허브 블로그, 튜토리얼, windows, wsl]     # TAG names should always be lowercase
 pin: true
+image:
+    path: 'https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/3c664a25-b692-405d-9f17-7fd3e2b41291'
 ---
 
 이 글은 제가 윈도우 환경에서 Windows Subsystem for Linux (WSL)을 활용하여 어떻게 Jekyll Chirpy 테마를 사용하여 깃허브 블로그를 만들었는지의 과정을 기록하기 위해 작성되었습니다. 
