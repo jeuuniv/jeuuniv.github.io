@@ -3,6 +3,7 @@ title: 깃허브 블로그 - 검색엔진 노출 등록 (구글/네이버/다음
 date: 2023-11-07 10:52:00 +0900
 categories: [깃허브 블로그]
 tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, seo, seo optimization, 깃허브, 블로그, 깃허브 블로그, 튜토리얼, 검색]     # TAG names should always be lowercase
+img_path: 'https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/67bf6e0f-f4c3-4ad9-906f-67208f3f5cc2'
 ---
 
 > 이번 글에서는 본인이 만든 블로그가 구글이나 네이버에서 검색해서 유입될 수 있도록 노출시키는 방법에 대해서 알려드리겠습니다. 
