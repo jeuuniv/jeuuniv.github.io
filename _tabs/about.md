@@ -4,6 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-테스트
+안녕하세요! AI에 관심이 많은 파덕이라고 합니다! 
 
-![go](https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/745d0301-be6b-499b-a113-b2d403031d3c){: .w-50 .shadow .rounded-10}
+잘부탁드립니다!
