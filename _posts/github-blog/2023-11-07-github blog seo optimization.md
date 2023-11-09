@@ -10,6 +10,8 @@ image:
 > 이번 글에서는 본인이 만든 블로그가 구글이나 네이버에서 검색해서 유입될 수 있도록 노출시키는 방법에 대해서 알려드리겠습니다. 
 이를 검색 엔진 최적화라 하는데 Jekyll Chirpy에서는 `sitemap.xml`, `robots.txt`가 자동으로 생성되므로 간단하게 적용 할 수 있습니다.
 
+---
+
 ## 구글
 ### Google Search Console 접속
 <https://search.google.com/search-console/about>{:target="_blank"}에 들어가서 시작하기 버튼을 누릅니다.
@@ -34,6 +36,8 @@ image:
 
 그러므로 바로 Google Search Console에서 색인생성-Sitemaps에 들어가 주신 뒤, 새 사이트 맵 추가에 그냥 `sitemap.xml`을 입력해주시고 제출하시면 됩니다.
 
+---
+
 ## 네이버
 ### 소유권 확인
 네이버는 `네이버 서치 어드바이저-웹마스터 도구`에서 사이트를 등록하게 되는데 과정이 `Google Search Console`때와 유사해 손쉽게 따라하실 수 있습니다.
@@ -54,12 +58,16 @@ Jekyll Chirpy에서는 자동으로 `feed.xml`란 Atom 형식의 피드를 생�
 
 그리고 블로그 배포가 끝난 뒤 RSS 제출 URL에 `https://(깃허브id).github.io/rss.xml`을 적고 확인을 누르시면 오류없이 정상적으로 제출이 되는 것을 볼 수 있습니다.
 
+---
+
 ## 다음
 Daum 검색등록 <https://register.search.daum.net/index.daum>에 들어가 줍니다.
 
 바로 보이는 화면에서 `블로그 등록`에 체크해 주신 뒤, 블로그 URL에 본인의 블로그 주소를 적고 확인을 누릅니다.
 
 개인정보 수집 및 이용 동의에 동의해주시고, 이메일 주소를 기입해주시면 등록 신청이 됩니다.
+
+---
 
 ## 빙
 빙도 유사한 과정으로 소유권 확인을 html 파일로 인증하지만,
@@ -71,6 +79,9 @@ Daum 검색등록 <https://register.search.daum.net/index.daum>에 들어가 줍
 사이트를 추가할 때 `Google Search Console에서 가져오기` 옵션이 있는데 선택 후 계정을 연동해주시면 됩니다.
 
 사이트맵 등록은 연동 시 자동으로 등록되므로 추가적인 작업을 안하셔도 됩니다.
+
+
+---
 
 ## 마치며
 글 작성이 아직 서툴러서 이상한 표현이 있을 수 있습니다! 차후 수정을 통해 보완하도록 하겠습니다!

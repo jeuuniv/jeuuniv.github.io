@@ -7,6 +7,8 @@ tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃�
 
 > 깃허브 블로그에는 기본적으로 댓글 기능이 없습니다. 그렇기 때문에 이번 글에서는 giscus를 이용해서 댓글 기능을 추가하는 법에 대해서 알려드리겠습니다.
 
+---
+
 ## giscus란?
 ### 소개
 giscus는 깃허브의 토론(GitHub Discussions) 기능으로 작동하는 댓글 시스템입니다. 이 방법을 통해 블로그에 댓글을 달게 되면 자동으로 레포지토리의 토론에 기록됩니다.
@@ -19,7 +21,7 @@ giscus는 깃허브의 토론(GitHub Discussions) 기능으로 작동하는 댓�
 * 커스텀 테마, 여러 언어, 여러 설정이 가능함
 * 자동으로 깃허브에서 새로운 댓글과 수정사항을 반영함
 
-
+---
 
 ## giscus 설치
 ### 레포지토리 지정
@@ -153,6 +155,8 @@ comments:
     reactions_enabled: # optional, default to the value of `1`
 ```
 
+---
+
 ## 로컬서버 테스트 후 git push
 다음 명령어를 통해 로컬서버에서 정상적으로 댓글 시스템이 작동하는지 확인해봅니다.
 
@@ -162,7 +166,7 @@ bundle exec jekyll s
 
 로컬에서 정상적으로 작동되는 것을 확인한 뒤 `git push`를 하면 본인의 깃허브 홈페이지에 댓글 기능이 생긴 것을 볼 수 있습니다!
 
-
+---
 
 ## 마치며
 제가 아직 글 작성하는 게 서툴러서 이상하게 서술된 부분도 있을 것 같습니다.

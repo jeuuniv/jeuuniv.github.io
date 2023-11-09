@@ -8,6 +8,8 @@ tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃�
 > 블로그를 만들 때 초기화 과정을 거쳤다면(`bash tools/init`) 아마 왼쪽 상단에 샘플 프로필 사진도 없이 그냥 텅 빈 원만 있을 것입니다.\
 이번 글에서는 블로그 왼쪽 상단에 있는 프로필 사진과 파비콘(주소창에 표시되는 이미지)를 바꾸는 법에 대해 알려드리겠습니다.
 
+---
+
 ## 프로필 사진 추가하기
 ### 프로필 사진 이미지 준비
 일단 프로필 사진으로 쓰고 싶은 이미지 하나를 준비합니다.
@@ -40,6 +42,8 @@ avatar: assets/img/avatar.jpg
 bundle exec jekyll s
 ```
 
+---
+
 ## 파비콘(favicon) 바꾸기
 
 ### 파비콘 이미지 준비
@@ -69,6 +73,8 @@ PNG, JPG, SVG 파일 확장자를 가진 512x512(혹은 그 이상)의 정사각
 ```bash
 bundle exec jekyll s
 ```
+
+---
 
 ## 마치며
 여기까지 문제없이 적용이 잘 됐다면 해당 변경사항을 `git commit` 후 `git push` 하게 되면 자동적으로 사이트에 변경된 프로필 사진과 파비콘이 적용됩니다!
