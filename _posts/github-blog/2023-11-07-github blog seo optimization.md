@@ -1,5 +1,5 @@
 ---
-title: 깃허브 블로그 - 검색노출 등록 SEO 최적화 (구글/네이버/다음/빙) (Jekyll Chirpy 기준)
+title: 깃허브 블로그 - SEO 검색 엔진 최적화 (구글/네이버/다음/빙) (Jekyll Chirpy 기준)
 date: 2023-11-07 10:52:00 +0900
 categories: [깃허브 블로그]
 tags: [github blog, jekyll chirpy, tutorial, 깃허브 블로그, 튜토리얼, seo, 검색 엔진 최적화]     # TAG names should always be lowercase
