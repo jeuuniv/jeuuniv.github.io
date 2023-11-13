@@ -2,7 +2,7 @@
 title: 깃허브 블로그 - 댓글 기능 추가 - giscus (Jekyll Chirpy 기준)
 date: 2023-11-06 14:44:00 +0900
 categories: [깃허브 블로그]
-tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃허브, 블로그, 깃허브 블로그, 튜토리얼, comment]     # TAG names should always be lowercase
+tags: [github blog, jekyll chirpy, tutorial, 깃허브 블로그, 튜토리얼, comment, 댓글]     # TAG names should always be lowercase
 ---
 
 > 깃허브 블로그에는 기본적으로 댓글 기능이 없습니다. 그렇기 때문에 이번 글에서는 giscus를 이용해서 댓글 기능을 추가하는 법에 대해서 알려드리겠습니다.

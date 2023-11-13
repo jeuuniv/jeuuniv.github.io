@@ -2,7 +2,7 @@
 title: 깃허브 블로그 - 검색노출 등록 SEO 최적화 (구글/네이버/다음/빙) (Jekyll Chirpy 기준)
 date: 2023-11-07 10:52:00 +0900
 categories: [깃허브 블로그]
-tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, seo, seo optimization, 깃허브, 블로그, 깃허브 블로그, 튜토리얼, 검색]     # TAG names should always be lowercase
+tags: [github blog, jekyll chirpy, tutorial, 깃허브 블로그, 튜토리얼, seo, 검색 엔진 최적화]     # TAG names should always be lowercase
 image:
     path: 'https://github.com/jeuuniv/jeuuniv.github.io/assets/149172579/9cc96fcd-b5db-4cf2-9df3-b2e84b007502'
 ---

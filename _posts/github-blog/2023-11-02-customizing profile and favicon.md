@@ -2,7 +2,7 @@
 title: 깃허브 블로그 - 프로필 사진, 파비콘 커스터마이징 (Jekyll Chirpy 기준)
 date: 2023-11-02 10:26:00 +0900
 categories: [깃허브 블로그]
-tags: [github, blog, github blog, jekyll, chirpy, jekyll chirpy, tutorial, 깃허브, 블로그, 깃허브 블로그, 튜토리얼, profile, favicon]     # TAG names should always be lowercase
+tags: [github blog, jekyll chirpy, tutorial, 깃허브 블로그, 튜토리얼, profile, favicon]     # TAG names should always be lowercase
 ---
 
 > 블로그를 만들 때 초기화 과정을 거쳤다면(`bash tools/init`) 아마 왼쪽 상단에 샘플 프로필 사진도 없이 그냥 텅 빈 원만 있을 것입니다.\
