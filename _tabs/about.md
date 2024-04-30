@@ -4,6 +4,19 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-안녕하세요! AI에 관심이 많은 파덕이라고 합니다! 
+# 개발 환경
 
-잘부탁드립니다!
+## 데스크탑
+
+- CPU : 
+- RAM :
+- VGA :
+- OS : Windows 11
+
+## 노트북
+
+- Lenovo E15 g4
+- CPU :
+- RAM :
+- VGA :
+- OS :
