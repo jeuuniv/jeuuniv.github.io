@@ -14,9 +14,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: summersby's blog # the main title
+title: Summersby's blog # the main title
 
-tagline: IT wannabes # it will display as the sub-title
+tagline: The way to get started is to quit talking and begin doing. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   까먹기 쉬운 내용이나 잡다한 글들을 적어요.
@@ -53,7 +53,7 @@ google_analytics:
   id: G-SJT1BKC8SK # fill in your Google Analytics ID
 
 goatcounter:
-  id: # fill in your Goatcounter ID
+  id: jeuuniv # fill in your Goatcounter ID
 
 # Prefer color scheme setting.
 #
