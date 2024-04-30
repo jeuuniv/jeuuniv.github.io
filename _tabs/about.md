@@ -16,6 +16,6 @@ order: 4
 ## 노트북 : Lenovo E15 g4 21ED004EKD
 
 - CPU : AMD Ryzen 5 5625U
-- RAM : 8GB + 8GB (추가)
+- RAM : 8GB (기본) + 8GB (추가)
 - VGA : 내장그래픽
 - OS : Windows 11
