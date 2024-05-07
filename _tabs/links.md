@@ -25,24 +25,24 @@ order: 5
 
 <https://dash.cloudflare.com/>{:target="_blank"}
 
-## SEO
+# SEO
 
-### Google Analytics
+## Google Analytics
 
 <https://analytics.google.com/>{:target="_blank"}
 
-### Google Search Console
+## Google Search Console
 
 <https://search.google.com/search-console/>{:target="_blank"}
 
-### Google Adsense
+## Google Adsense
 
 <https://www.google.com/adsense/>{:target="_blank"}
 
-### Naver Search Advisor
+## Naver Search Advisor
 
 <https://searchadvisor.naver.com/>{:target="_blank}
 
-### Bing Webmaster Tools
+## Bing Webmaster Tools
 
 <https://www.bing.com/webmasters>{:target="_blank}
